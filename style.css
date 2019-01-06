@@ -1,0 +1,88 @@
+.navbar {
+	font-family: 'Amatic SC', cursive;
+	font-weight: 600;
+	font-size: 32px;
+	background: black;
+}
+
+body {
+	font-family: 'Roboto Slab', serif;
+}
+
+.carousel {
+	font-family: 'Roboto Slab', serif;
+	font-size: 40px;
+	font-weight: 860;
+	text-shadow: 
+        -1px -1px 0px #000,
+         0px -1px 0px #000,
+         1px -1px 0px #000,
+        -1px  0px 0px #000,
+         1px  0px 0px #000,
+        -1px  1px 0px #000,
+         0px  1px 0px #000,
+         1px  1px 0px #000;
+
+}
+
+#photo, .btn {
+	margin-bottom: 10px;
+}
+
+.btn{
+	margin-top: 30px;
+}
+
+
+footer{
+	background-color: black;
+	height:80px;
+	color: white;
+	font-size: 12px;
+	text-align: center;
+	width: 100%;
+}
+
+p{
+	padding-top: 30px;
+}
+
+#desc,#video {
+	padding-top: 50px;
+}
+
+i {
+	font-size: 30px;
+	padding: 15px 15px 15px 15px;
+	color: #FEE56C ;
+	text-shadow: 
+        -1px -1px 0px #000,
+         0px -1px 0px #000,
+         1px -1px 0px #000,
+        -1px  0px 0px #000,
+         1px  0px 0px #000,
+        -1px  1px 0px #000,
+         0px  1px 0px #000,
+         1px  1px 0px #000;
+}
+
+#contacts, #catalog {
+	padding-top: 70px;
+}
+
+#main {
+	margin-bottom: 60px;
+}
+
+#icon {
+	border-radius: 6px;
+}
+
+#catalogItem {
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+.card {
+	margin-top: 60px
+}
