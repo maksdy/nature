@@ -28,7 +28,8 @@ function checkWinner() {
 	allblock[2].innerHTML=='x' && allblock[5].innerHTML=='x' && allblock[8].innerHTML=='x' ||
 	allblock[0].innerHTML=='x' && allblock[4].innerHTML=='x' && allblock[8].innerHTML=='x' ||
 	allblock[2].innerHTML=='x' && allblock[4].innerHTML=='x' && allblock[6].innerHTML=='x' 
-	) alert('Победили крестики!');
+	) alert('Победили крестики!'),location.reload();
+
 
 	if (allblock[0].innerHTML=='o' && allblock[1].innerHTML=='o' && allblock[2].innerHTML=='o' ||
 	allblock[3].innerHTML=='o' && allblock[4].innerHTML=='o' && allblock[5].innerHTML=='o' || 
@@ -38,6 +39,7 @@ function checkWinner() {
 	allblock[2].innerHTML=='o' && allblock[5].innerHTML=='o' && allblock[8].innerHTML=='o' ||
 	allblock[0].innerHTML=='o' && allblock[4].innerHTML=='o' && allblock[8].innerHTML=='o' ||
 	allblock[2].innerHTML=='o' && allblock[4].innerHTML=='o' && allblock[6].innerHTML=='o' 
-	) alert('Победили нолики!');
+	) alert('Победили нолики!'),location.reload();
+
 
 }
